@@ -5,6 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [name, setName] = useState('Aditya')
 
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <h1>Hello {name}</h1>
     </>
   )
 }
